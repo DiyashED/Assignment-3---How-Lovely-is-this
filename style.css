@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #f79595, #9fe6f0);
+    color: #333;
+}
+
+header {
+    background-color: rgb(197, 255, 236);
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about, .highlights, .nutrition-facts {
+    margin: 20px 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.highlights {
+    background-color: rgb(197, 255, 236);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.highlights img {
+    width: auto;
+    height: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.nutrition-facts table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrition-facts th, .nutrition-facts td {
+    text-align: left;
+    padding: 12px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition-facts th {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(197, 255, 236);
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 15px; 
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-logo img {
+    width: 160px; 
+    border-radius: 50%;
+}
+
+footer .contact-info {
+    margin: 10px 0;
+}
+
+footer .feedback-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 600px;
+}
+
+footer .feedback-form form .form-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+footer .feedback-form form label {
+    width: 120px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+footer .feedback-form form input,
+footer .feedback-form form textarea {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+footer .feedback-form form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+footer .feedback-form form button {
+    align-self: flex-start;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1em;
+    color: black;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+footer .feedback-form form button:hover {
+    background-color: aquamarine;
+    color: #fff;
+}
